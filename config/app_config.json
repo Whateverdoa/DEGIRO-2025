@@ -1,0 +1,9 @@
+{
+  "trading_enabled": true,
+  "rules_enabled": true,
+  "emergency_stop_active": false,
+  "allowed_symbols": [],
+  "blocked_symbols": [],
+  "active_strategies": [],
+  "test_value": 42
+}

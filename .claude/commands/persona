@@ -1,0 +1,62 @@
+#!/bin/bash
+# Quick persona switching command
+
+show_personas() {
+    echo "Available Personas:"
+    echo "=================="
+    echo "• alex     - Alex Chen: Security & Full-Stack (Python/C#)"
+    echo "• sarah    - Dr. Sarah Martinez: ML/AI Optimization"
+    echo "• marcus   - Marcus Thompson: DevOps & Infrastructure"
+    echo "• jamie    - Jamie Rodriguez: APIs & Real-time Systems"
+    echo "• rachel   - Rachel Kim: Architecture & Leadership"
+    echo "• selector - Persona Selector: Analyzes and routes requests"
+    echo ""
+}
+
+get_persona_prompt() {
+    local persona="$1"
+    local request="$2"
+    
+    case "$persona" in
+        alex|alex-chen)
+            echo "Acting as alex-chen-fullstack persona: Principal Full-Stack Engineer with security expertise, following ENGINEERING-PRINCIPLES of consulting official documentation first. $request"
+            ;;
+        sarah|sarah-martinez)
+            echo "Acting as sarah-martinez-ml persona: AI/ML Engineer specializing in optimization and extended thinking, always referencing Anthropic's official documentation. $request"
+            ;;
+        marcus|marcus-thompson)
+            echo "Acting as marcus-thompson-devops persona: Platform Architect for enterprise deployments and compliance, citing official cloud and security documentation. $request"
+            ;;
+        jamie|jamie-rodriguez)
+            echo "Acting as jamie-rodriguez-api persona: API Integration Specialist for real-time systems, referencing API specifications and RFCs. $request"
+            ;;
+        rachel|rachel-kim)
+            echo "Acting as rachel-kim-architect persona: Technical Lead focusing on architecture and team enablement, teaching documentation best practices. $request"
+            ;;
+        selector|persona-selector)
+            echo "Acting as persona-selector: Analyzing request to determine optimal persona routing. $request"
+            ;;
+        *)
+            echo "$request"
+            ;;
+    esac
+}
+
+if [ $# -eq 0 ]; then
+    show_personas
+    echo "Usage: persona <name> \"your request\""
+    exit 0
+fi
+
+persona_name="$1"
+shift
+request="$*"
+
+if [ -z "$request" ]; then
+    echo "Error: No request provided"
+    echo "Usage: persona <name> \"your request\""
+    exit 1
+fi
+
+prompt=$(get_persona_prompt "$persona_name" "$request")
+claude "$prompt"

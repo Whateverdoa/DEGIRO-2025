@@ -1,0 +1,330 @@
+{
+  "report_metadata": {
+    "generated_at": "2025-06-27T21:48:58.687483",
+    "report_type": "monthly_maintenance",
+    "clara_version": "1.0.0",
+    "system": "Degiro-2025"
+  },
+  "executive_summary": {
+    "total_incidents": 33,
+    "critical_incidents": 14,
+    "system_health": "Needs Attention",
+    "key_insights_count": 4,
+    "recommendations_count": 6
+  },
+  "detailed_analysis": {
+    "performance": {
+      "status": "\ud83d\udcc8 Insufficient data for monthly analysis",
+      "details": [
+        "Need at least 10 data points for trend analysis"
+      ]
+    },
+    "capacity": {
+      "status": "\ud83d\udcca Insufficient data for capacity planning",
+      "details": [
+        "Need at least 30 data points for capacity analysis"
+      ]
+    },
+    "security": {
+      "status": "\ud83d\udea8 Multiple security issues detected",
+      "details": [
+        "Overly permissive: .env.dev",
+        "Overly permissive: config/app_config.json",
+        "Overly permissive: maintenance/config/maintenance_config.json",
+        "Overly permissive: maintenance/config/alert_thresholds.json",
+        "Potential secret file: tools/extract_totp_secret.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/pydantic_settings/sources/providers/secrets.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/frozendict/monkeypatch.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/prompt_toolkit/keys.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/dns/tsigkeyring.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/_pytest/monkeypatch.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/pandas/tests/util/test_deprecate_nonkeyword_arguments.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/pandas/tests/io/pytables/test_keys.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/dns/rdtypes/dnskeybase.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/celery/security/key.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/fastapi/security/api_key.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/prompt_toolkit/key_binding/key_bindings.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/prompt_toolkit/key_binding/key_processor.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/sqlalchemy/sql/cache_key.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/cryptography/hazmat/primitives/keywrap.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/packaging/_tokenizer.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/prompt_toolkit/token.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/yaml/tokens.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/dns/tokenizer.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/coverage/phystokens.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/blib2to3/pgen2/token.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/blib2to3/pgen2/tokenize.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/pip/_vendor/packaging/_tokenizer.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/pip/_vendor/pygments/token.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/redis/auth/token.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/redis/auth/token_manager.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/pycparser/ply/ctokens.py",
+        "Potential secret file: venv/lib/python3.13/site-packages/mypyc/irbuild/format_str_tokenizer.py",
+        "chmod 600 .env.dev",
+        "chmod 600 config/app_config.json",
+        "chmod 600 maintenance/config/maintenance_config.json",
+        "chmod 600 maintenance/config/alert_thresholds.json",
+        "Ensure .git directory is not deployed to production"
+      ]
+    },
+    "optimization": {
+      "status": "\u26a1 1 optimization opportunities found",
+      "details": [
+        "Potentially unused dependencies: 8 packages"
+      ]
+    }
+  },
+  "incidents": [
+    {
+      "timestamp": "2025-06-27T21:48:53.179352",
+      "severity": "warning",
+      "component": "system_memory",
+      "message": "Memory usage elevated: 80.7%",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180490",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180511",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180514",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180517",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180519",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180526",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180528",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180578",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:29:58 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180596",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:30:33 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180599",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180601",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180603",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180604",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180606",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180608",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180610",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180615",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180618",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180629",
+      "severity": "critical",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180631",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - WARNING - degiro_api.py:71 - get_portfolio f",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180635",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:05 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180640",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180643",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180646",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180648",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180651",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180654",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180656",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180659",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:20:39 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180661",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:01 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180663",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:21 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "auto_resolved": false
+    },
+    {
+      "timestamp": "2025-06-27T21:48:53.180664",
+      "severity": "warning",
+      "component": "application_logs",
+      "message": "Log pattern detected in degiro-trading-agent.log: 2025-06-02 21:17:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "auto_resolved": false
+    }
+  ],
+  "insights": [
+    "Most incident-prone component: 'application_logs' (32 incidents)",
+    "Critical incidents this month: 14 - requires attention",
+    "Maintenance history contains 165 entries - rich pattern analysis available",
+    "Monthly analysis complete for June - patterns logged for future reference"
+  ],
+  "strategic_recommendations": [
+    "Strategic: Memory optimization should be prioritized in next quarter",
+    "Strategic: Schedule quarterly security dependency audit",
+    "Strategic: Verify backup restoration procedures quarterly",
+    "Strategic: Consider implementing automated performance baseline updates",
+    "Strategic: Establish quarterly capacity planning reviews",
+    "Strategic: Maintain runbook documentation for all automated remediation procedures"
+  ],
+  "clara_notes": {
+    "maintenance_philosophy": "Prevent, Preserve, Perfect",
+    "memory_entries": 165,
+    "patterns_identified": 0,
+    "next_monthly_maintenance": "2025-07-01 10:00"
+  }
+}

@@ -1,0 +1,52 @@
+# Core dependencies
+requests>=2.31.0
+pandas>=2.1.4
+numpy>=1.26.2
+sqlalchemy>=2.0.23
+pydantic>=2.5.2
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+
+# DEGIRO API
+degiro-connector>=2.0.0
+
+# Database
+psycopg2-binary>=2.9.9
+alembic>=1.13.0
+
+# Security
+cryptography>=41.0.7
+pyotp>=2.9.0
+
+# Data Analysis & Trading
+yfinance>=0.2.33
+ta>=0.11.0
+
+# Web Framework
+fastapi>=0.104.1
+uvicorn>=0.25.0
+python-multipart>=0.0.6
+
+# Notifications
+email-validator>=2.1.0
+
+# Task Queue
+celery>=5.3.4
+redis>=5.0.1
+
+# Maintenance Engine
+schedule>=1.2.0
+psutil>=5.9.0
+watchdog>=3.0.0
+apscheduler>=3.10.0
+
+# Testing
+pytest>=7.4.3
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.1
+
+# Development
+black>=23.12.0
+flake8>=6.1.0
+mypy>=1.7.1
+pre-commit>=3.6.0

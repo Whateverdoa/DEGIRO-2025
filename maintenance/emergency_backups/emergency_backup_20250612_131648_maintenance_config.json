@@ -1,0 +1,176 @@
+{
+  "enabled": true,
+  "version": "1.0.0",
+  "clara_personality": {
+    "name": "Clara Maintenance Agent",
+    "motto": "Prevent, Preserve, Perfect. And I remember everything.",
+    "approach": "systematic_and_methodical"
+  },
+  "system_monitoring": {
+    "cpu_warning_threshold": 80,
+    "cpu_critical_threshold": 95,
+    "memory_warning_threshold": 80,
+    "memory_critical_threshold": 95,
+    "disk_warning_threshold": 85,
+    "disk_critical_threshold": 90,
+    "process_count_threshold": 500,
+    "load_average_threshold": 5.0
+  },
+  "maintenance_schedules": {
+    "daily": {
+      "time": "09:00",
+      "enabled": true,
+      "tasks": [
+        "system_health_check",
+        "log_analysis",
+        "disk_cleanup",
+        "performance_monitoring"
+      ]
+    },
+    "weekly": {
+      "day": "monday",
+      "time": "10:00",
+      "enabled": true,
+      "tasks": [
+        "performance_trend_analysis",
+        "system_baseline_update",
+        "security_audit",
+        "dependency_check"
+      ]
+    },
+    "monthly": {
+      "day": 1,
+      "time": "11:00",
+      "enabled": true,
+      "tasks": [
+        "backup_cleanup",
+        "monthly_report_generation",
+        "configuration_audit",
+        "performance_optimization_review"
+      ]
+    },
+    "emergency": {
+      "interval_minutes": 60,
+      "enabled": true,
+      "tasks": [
+        "critical_system_check",
+        "service_availability_check",
+        "resource_exhaustion_check"
+      ]
+    }
+  },
+  "file_management": {
+    "log_retention_days": 30,
+    "backup_retention_days": 7,
+    "temp_file_cleanup_days": 3,
+    "max_log_file_size_mb": 100
+  },
+  "auto_remediation": {
+    "enabled": true,
+    "approval_required_for_critical": true,
+    "max_auto_actions_per_hour": 5,
+    "safe_mode": true,
+    "allowed_actions": [
+      "log_rotation",
+      "temp_file_cleanup",
+      "service_restart_non_critical",
+      "cache_clearing",
+      "disk_cleanup"
+    ],
+    "restricted_actions": [
+      "database_operations",
+      "configuration_changes",
+      "service_restart_critical",
+      "file_system_modifications"
+    ]
+  },
+  "alerting": {
+    "email_notifications": {
+      "enabled": false,
+      "smtp_server": null,
+      "smtp_port": 587,
+      "username": null,
+      "password": null,
+      "from_address": "clara@degiro-2025.local",
+      "to_addresses": []
+    },
+    "severity_escalation": {
+      "info": {
+        "log_only": true,
+        "notify": false
+      },
+      "warning": {
+        "log_only": false,
+        "notify": true,
+        "escalate_after_minutes": 30
+      },
+      "critical": {
+        "log_only": false,
+        "notify": true,
+        "escalate_after_minutes": 5,
+        "require_immediate_attention": true
+      },
+      "emergency": {
+        "log_only": false,
+        "notify": true,
+        "escalate_after_minutes": 1,
+        "require_immediate_attention": true,
+        "auto_remediation_allowed": true
+      }
+    }
+  },
+  "integration": {
+    "degiro_api_monitoring": {
+      "enabled": true,
+      "health_check_interval_minutes": 15,
+      "timeout_threshold_seconds": 30,
+      "error_rate_threshold_percent": 5
+    },
+    "database_monitoring": {
+      "enabled": true,
+      "connection_check_interval_minutes": 10,
+      "query_timeout_threshold_seconds": 60,
+      "connection_pool_threshold_percent": 80
+    },
+    "portfolio_service_monitoring": {
+      "enabled": true,
+      "data_validation_enabled": true,
+      "zero_value_alert_enabled": true,
+      "position_count_validation": true
+    }
+  },
+  "security": {
+    "file_permission_monitoring": true,
+    "configuration_drift_detection": true,
+    "unauthorized_access_monitoring": true,
+    "security_audit_frequency_days": 7
+  },
+  "performance": {
+    "metrics_collection_interval_minutes": 5,
+    "trend_analysis_window_days": 30,
+    "baseline_update_frequency_days": 7,
+    "performance_report_frequency_days": 30
+  },
+  "clara_memory": {
+    "incident_retention_days": 365,
+    "pattern_analysis_enabled": true,
+    "learning_mode": true,
+    "memory_optimization_frequency_days": 30
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - Clara - %(levelname)s - %(message)s",
+    "date_format": "%Y-%m-%d %H:%M:%S",
+    "file_rotation": {
+      "enabled": true,
+      "max_size_mb": 50,
+      "backup_count": 5
+    }
+  },
+  "environment": {
+    "project_name": "Degiro-2025",
+    "environment_type": "development",
+    "timezone": "UTC",
+    "locale": "en_US.UTF-8"
+  }
+}

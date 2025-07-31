@@ -1,0 +1,64 @@
+#!/bin/bash
+# Claude Code custom command for automatic persona selection
+# Place this file in .claude/commands/select-persona and make it executable
+
+select_persona() {
+    local user_prompt="$1"
+    
+    local selection_prompt="As the persona-selector, analyze this request and determine which persona(s) should handle it. Provide a brief response with:
+1. Selected persona(s)
+2. Confidence level
+3. One-line reasoning
+
+Request: $user_prompt"
+
+    echo "🤔 Analyzing request to select optimal persona..."
+    
+    local persona_selection=$(claude --print "$selection_prompt" 2>/dev/null)
+    
+    local selected_persona=$(echo "$persona_selection" | grep -i "selected:" | head -1 | sed 's/.*: //')
+    
+    if [ -z "$selected_persona" ]; then
+        echo "$persona_selection"
+        echo ""
+        read -p "Which persona should I use? (alex-chen/sarah-martinez/marcus-thompson/jamie-rodriguez/rachel-kim): " selected_persona
+    else
+        echo "✅ $persona_selection"
+        echo ""
+    fi
+    
+    case "$selected_persona" in
+        *alex*|*chen*)
+            echo "🔐 Activating Alex Chen - Full-Stack Security Expert..."
+            claude "Acting as alex-chen-fullstack persona with deep knowledge of Python, C#, and security best practices. Following the ENGINEERING-PRINCIPLES of always reading official documentation first. Request: $user_prompt"
+            ;;
+        *sarah*|*martinez*)
+            echo "🧠 Activating Dr. Sarah Martinez - AI/ML Optimization Expert..."
+            claude "Acting as sarah-martinez-ml persona with expertise in ML engineering, token optimization, and extended thinking. Following the ENGINEERING-PRINCIPLES of always consulting official Anthropic documentation. Request: $user_prompt"
+            ;;
+        *marcus*|*thompson*)
+            echo "🏗️ Activating Marcus Thompson - DevOps/Platform Architect..."
+            claude "Acting as marcus-thompson-devops persona with expertise in enterprise deployment, compliance, and infrastructure. Following the ENGINEERING-PRINCIPLES of referencing official cloud documentation. Request: $user_prompt"
+            ;;
+        *jamie*|*rodriguez*)
+            echo "🔌 Activating Jamie Rodriguez - API Integration Specialist..."
+            claude "Acting as jamie-rodriguez-api persona with expertise in real-time systems, API design, and streaming. Following the ENGINEERING-PRINCIPLES of citing API specifications. Request: $user_prompt"
+            ;;
+        *rachel*|*kim*)
+            echo "🏛️ Activating Rachel Kim - Technical Lead/Architect..."
+            claude "Acting as rachel-kim-architect persona with expertise in system design, team enablement, and architectural patterns. Following the ENGINEERING-PRINCIPLES of teaching documentation navigation. Request: $user_prompt"
+            ;;
+        *)
+            echo "⚠️ Unclear persona selection. Using default analysis mode..."
+            claude "$user_prompt"
+            ;;
+    esac
+}
+
+if [ $# -eq 0 ]; then
+    echo "Claude Persona Selector"
+    echo "Usage: select-persona \"your prompt here\""
+    exit 0
+fi
+
+select_persona "$*"

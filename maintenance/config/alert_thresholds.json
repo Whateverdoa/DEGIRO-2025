@@ -1,0 +1,279 @@
+{
+  "system_thresholds": {
+    "cpu": {
+      "info": 50,
+      "warning": 80,
+      "critical": 95,
+      "emergency": 98,
+      "sustained_duration_minutes": 5,
+      "description": "CPU usage percentage thresholds"
+    },
+    "memory": {
+      "info": 60,
+      "warning": 80,
+      "critical": 95,
+      "emergency": 98,
+      "sustained_duration_minutes": 3,
+      "description": "Memory usage percentage thresholds"
+    },
+    "disk": {
+      "info": 70,
+      "warning": 85,
+      "critical": 90,
+      "emergency": 95,
+      "sustained_duration_minutes": 10,
+      "description": "Disk usage percentage thresholds"
+    },
+    "load_average": {
+      "info": 2.0,
+      "warning": 4.0,
+      "critical": 8.0,
+      "emergency": 12.0,
+      "sustained_duration_minutes": 5,
+      "description": "System load average thresholds"
+    },
+    "process_count": {
+      "info": 300,
+      "warning": 500,
+      "critical": 800,
+      "emergency": 1000,
+      "sustained_duration_minutes": 5,
+      "description": "Total process count thresholds"
+    }
+  },
+  "application_thresholds": {
+    "api_response_time": {
+      "info": 1000,
+      "warning": 3000,
+      "critical": 10000,
+      "emergency": 30000,
+      "unit": "milliseconds",
+      "description": "API response time thresholds"
+    },
+    "api_error_rate": {
+      "info": 1,
+      "warning": 5,
+      "critical": 15,
+      "emergency": 30,
+      "unit": "percentage",
+      "window_minutes": 15,
+      "description": "API error rate percentage thresholds"
+    },
+    "database_connection_time": {
+      "info": 500,
+      "warning": 2000,
+      "critical": 5000,
+      "emergency": 15000,
+      "unit": "milliseconds",
+      "description": "Database connection time thresholds"
+    },
+    "portfolio_data_staleness": {
+      "info": 300,
+      "warning": 900,
+      "critical": 1800,
+      "emergency": 3600,
+      "unit": "seconds",
+      "description": "Portfolio data age thresholds"
+    }
+  },
+  "degiro_specific_thresholds": {
+    "portfolio_value_change": {
+      "warning": 50,
+      "critical": 90,
+      "emergency": 99,
+      "unit": "percentage",
+      "description": "Unexpected portfolio value change thresholds"
+    },
+    "position_count_change": {
+      "warning": 20,
+      "critical": 50,
+      "emergency": 80,
+      "unit": "percentage",
+      "description": "Position count change thresholds"
+    },
+    "zero_value_positions": {
+      "warning": 1,
+      "critical": 3,
+      "emergency": 5,
+      "unit": "count",
+      "description": "Number of positions with zero value"
+    },
+    "api_authentication_failures": {
+      "warning": 3,
+      "critical": 5,
+      "emergency": 10,
+      "unit": "count",
+      "window_minutes": 60,
+      "description": "DEGIRO API authentication failure count"
+    }
+  },
+  "log_pattern_thresholds": {
+    "error_patterns": {
+      "ERROR": {
+        "warning": 5,
+        "critical": 20,
+        "emergency": 50,
+        "window_minutes": 60
+      },
+      "CRITICAL": {
+        "warning": 1,
+        "critical": 3,
+        "emergency": 10,
+        "window_minutes": 60
+      },
+      "Exception": {
+        "warning": 3,
+        "critical": 10,
+        "emergency": 25,
+        "window_minutes": 60
+      },
+      "Failed": {
+        "warning": 5,
+        "critical": 15,
+        "emergency": 30,
+        "window_minutes": 60
+      },
+      "Timeout": {
+        "warning": 3,
+        "critical": 8,
+        "emergency": 15,
+        "window_minutes": 60
+      }
+    },
+    "security_patterns": {
+      "Unauthorized": {
+        "warning": 1,
+        "critical": 3,
+        "emergency": 5,
+        "window_minutes": 60
+      },
+      "Access denied": {
+        "warning": 1,
+        "critical": 3,
+        "emergency": 5,
+        "window_minutes": 60
+      },
+      "Authentication failed": {
+        "warning": 2,
+        "critical": 5,
+        "emergency": 10,
+        "window_minutes": 60
+      }
+    }
+  },
+  "file_system_thresholds": {
+    "log_file_size": {
+      "warning": 100,
+      "critical": 500,
+      "emergency": 1000,
+      "unit": "megabytes",
+      "description": "Individual log file size thresholds"
+    },
+    "temp_file_count": {
+      "warning": 100,
+      "critical": 500,
+      "emergency": 1000,
+      "unit": "count",
+      "description": "Temporary file count thresholds"
+    },
+    "config_file_changes": {
+      "warning": 1,
+      "critical": 3,
+      "emergency": 5,
+      "unit": "count",
+      "window_hours": 24,
+      "description": "Configuration file modification count"
+    }
+  },
+  "network_thresholds": {
+    "connection_failures": {
+      "warning": 3,
+      "critical": 10,
+      "emergency": 20,
+      "window_minutes": 30,
+      "description": "Network connection failure count"
+    },
+    "dns_resolution_time": {
+      "warning": 1000,
+      "critical": 5000,
+      "emergency": 15000,
+      "unit": "milliseconds",
+      "description": "DNS resolution time thresholds"
+    }
+  },
+  "clara_operational_thresholds": {
+    "maintenance_execution_time": {
+      "warning": 300,
+      "critical": 900,
+      "emergency": 1800,
+      "unit": "seconds",
+      "description": "Clara maintenance routine execution time"
+    },
+    "memory_usage": {
+      "warning": 100,
+      "critical": 250,
+      "emergency": 500,
+      "unit": "megabytes",
+      "description": "Clara's own memory usage"
+    },
+    "incident_detection_rate": {
+      "info": 5,
+      "warning": 20,
+      "critical": 50,
+      "emergency": 100,
+      "unit": "incidents_per_hour",
+      "description": "Rate of incident detection by Clara"
+    }
+  },
+  "escalation_rules": {
+    "repeated_incidents": {
+      "same_component_threshold": 3,
+      "time_window_minutes": 60,
+      "escalation_level": "critical",
+      "description": "Escalate when same component has multiple incidents"
+    },
+    "cascade_detection": {
+      "incident_count_threshold": 5,
+      "time_window_minutes": 15,
+      "escalation_level": "emergency",
+      "description": "Detect incident cascades across components"
+    },
+    "silent_failure_detection": {
+      "zero_value_duration_minutes": 30,
+      "missing_data_duration_minutes": 15,
+      "escalation_level": "critical",
+      "description": "Detect silent failures in data processing"
+    }
+  },
+  "auto_remediation_triggers": {
+    "disk_cleanup": {
+      "trigger_threshold": 85,
+      "target_threshold": 75,
+      "unit": "percentage",
+      "description": "Automatic disk cleanup when usage exceeds threshold"
+    },
+    "log_rotation": {
+      "trigger_size_mb": 100,
+      "max_files": 10,
+      "description": "Automatic log rotation when files exceed size"
+    },
+    "cache_clearing": {
+      "memory_threshold": 90,
+      "age_threshold_hours": 24,
+      "description": "Clear caches when memory usage is high"
+    },
+    "service_restart": {
+      "error_rate_threshold": 25,
+      "window_minutes": 15,
+      "max_restarts_per_hour": 2,
+      "description": "Restart services with high error rates"
+    }
+  },
+  "clara_notes": [
+    "These thresholds are based on Clara's experience with Degiro-2025 operations.",
+    "Thresholds should be adjusted based on system behavior and capacity.",
+    "Emergency thresholds trigger immediate attention and auto-remediation.",
+    "Silent failure detection is critical for financial data integrity.",
+    "Clara learns and adapts these thresholds based on operational patterns."
+  ]
+}

@@ -1,0 +1,60 @@
+#!/bin/bash
+# Automated Claude workspace initialization
+
+echo "🚀 Initializing Claude workspace..."
+
+read -p "Project name: " project_name
+read -p "Primary language (python/typescript/csharp/go): " language
+read -p "Project type (web/api/ml/infrastructure): " project_type
+
+mkdir -p .claude/{personas,commands,prompts,templates}
+
+case "$project_type" in
+    web|api)
+        primary_persona="alex-chen"
+        ;;
+    ml)
+        primary_persona="sarah-martinez"
+        ;;
+    infrastructure)
+        primary_persona="marcus-thompson"
+        ;;
+    *)
+        primary_persona="rachel-kim"
+        ;;
+esac
+
+cat > .claude/CLAUDE.md << CLAUDE_EOF
+# Project: $project_name
+
+## Project Overview
+Initialized on $(date +%Y-%m-%d)
+
+## Technology Stack
+- Primary Language: $language
+- Project Type: $project_type
+
+## Preferred Personas
+- Primary: $primary_persona
+- Use 'auto-persona' for automatic selection
+
+## Quick Commands
+\`\`\`bash
+# Auto-select persona for any task
+auto-persona "your request"
+
+# Quick persona access
+persona alex "security review"
+persona sarah "ml optimization"
+
+# Project-specific tasks
+claude "following this project's CLAUDE.md conventions, [task]"
+\`\`\`
+CLAUDE_EOF
+
+echo "✅ Claude workspace initialized!"
+echo ""
+echo "Next steps:"
+echo "1. Review .claude/CLAUDE.md and customize for your project"
+echo "2. Test persona selection: auto-persona \"describe this project setup\""
+echo "3. Configure any additional project-specific templates"

@@ -1,0 +1,46 @@
+#!/bin/bash
+# Simplified auto-persona command that integrates with Claude more seamlessly
+
+construct_persona_prompt() {
+    local user_request="$1"
+    
+    cat << 'PROMPT_EOF'
+First, analyze this request to determine the most appropriate persona:
+
+[PERSONAS AVAILABLE]
+1. alex-chen-fullstack: Security expert, Python/C#, full-stack development
+2. sarah-martinez-ml: ML/AI optimization, batch processing, extended thinking
+3. marcus-thompson-devops: Enterprise deployment, compliance, infrastructure
+4. jamie-rodriguez-api: API design, real-time systems, streaming
+5. rachel-kim-architect: System design, team leadership, best practices
+
+[REQUEST TO ANALYZE]
+PROMPT_EOF
+    echo "$user_request"
+    
+    cat << 'PROMPT_EOF'
+
+Based on your analysis:
+1. State which persona is best suited (with confidence %)
+2. Briefly explain why (1 sentence)
+3. Then respond to the request AS THAT PERSONA, following the ENGINEERING-PRINCIPLES of always consulting official documentation first
+
+Begin your response with:
+"Selected: [persona-name] (X% confidence) - [reasoning]"
+
+Then provide the full response as that persona.
+PROMPT_EOF
+}
+
+if [ $# -eq 0 ]; then
+    echo "Auto-Persona for Claude Code"
+    echo "Usage: auto-persona \"your request here\""
+    exit 0
+fi
+
+user_request="$*"
+full_prompt=$(construct_persona_prompt "$user_request")
+
+echo "🤖 Auto-selecting persona and processing request..."
+echo ""
+claude "$full_prompt"

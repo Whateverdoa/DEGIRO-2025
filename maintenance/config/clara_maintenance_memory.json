@@ -1,0 +1,1668 @@
+{
+  "clara_maintenance_history": [
+    {
+      "incident_id": "memory_warning_1749726954",
+      "timestamp": "2025-06-12T13:15:54.264821",
+      "severity": "warning",
+      "component": "system_memory",
+      "description": "Memory usage elevated: 83.5%",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266384",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266408",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266412",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266414",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266420",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266423",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266426",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266750",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:29:58 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266778",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:30:33 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266782",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266784",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266788",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266790",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266792",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266794",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266795",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266800",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266804",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266815",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266817",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - WARNING - degiro_api.py:71 - get_portfolio f",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266821",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:05 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266824",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266827",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266830",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266832",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266835",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266838",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266841",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266843",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:20:39 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266845",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:01 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266847",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:21 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726954",
+      "timestamp": "2025-06-12T13:15:54.266849",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-06-02 21:17:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "memory_warning_1749726963",
+      "timestamp": "2025-06-12T13:16:03.975577",
+      "severity": "warning",
+      "component": "system_memory",
+      "description": "Memory usage elevated: 82.2%",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.976912",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.976934",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.976938",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.976940",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.976942",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.976944",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.976947",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978020",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:29:58 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978097",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:30:33 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978106",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978112",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978125",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978130",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978136",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978141",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978146",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978156",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978164",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978186",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978191",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - WARNING - degiro_api.py:71 - get_portfolio f",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978199",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:05 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978207",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978221",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978408",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978418",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978437",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978444",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978451",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978458",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:20:39 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978463",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:01 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978468",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:21 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726963",
+      "timestamp": "2025-06-12T13:16:03.978479",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-06-02 21:17:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "memory_warning_1749726994",
+      "timestamp": "2025-06-12T13:16:34.609028",
+      "severity": "warning",
+      "component": "system_memory",
+      "description": "Memory usage elevated: 81.3%",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611117",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611146",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611151",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611153",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611155",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611157",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611161",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611400",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:29:58 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611411",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:30:33 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611414",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611416",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611418",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611420",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611422",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611424",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611426",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611430",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611434",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611445",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611447",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - WARNING - degiro_api.py:71 - get_portfolio f",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611451",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:05 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611454",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611457",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611462",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611465",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611467",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611470",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611473",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611475",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:20:39 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611477",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:01 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611479",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:21 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1749726994",
+      "timestamp": "2025-06-12T13:16:34.611481",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-06-02 21:17:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "memory_warning_1751053708",
+      "timestamp": "2025-06-27T21:48:28.907829",
+      "severity": "warning",
+      "component": "system_memory",
+      "description": "Memory usage elevated: 81.3%",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910143",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910170",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910174",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910177",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910179",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910181",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910183",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910513",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:29:58 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910530",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:30:33 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910533",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910535",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910537",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910539",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910541",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910543",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910544",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910549",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910553",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910564",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910566",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - WARNING - degiro_api.py:71 - get_portfolio f",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910570",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:05 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910573",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910576",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910579",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910581",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910584",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910587",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910589",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910592",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:20:39 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910594",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:01 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910596",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:21 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053708",
+      "timestamp": "2025-06-27T21:48:28.910597",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-06-02 21:17:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "memory_warning_1751053733",
+      "timestamp": "2025-06-27T21:48:53.179352",
+      "severity": "warning",
+      "component": "system_memory",
+      "description": "Memory usage elevated: 80.7%",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180490",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180511",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180514",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180517",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180519",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180526",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180528",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent_errors.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180578",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:29:58 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180596",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 13:30:33 - degiro-trading-agent - WARNING - test_setup.py:19 - Warning logging is working",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180599",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180601",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:93 - Failed to store crede",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180603",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:245 - Invalid TOTP secret:",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180604",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - ERROR - security.py:204 - Invalid TOTP secret ",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180606",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180608",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180610",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:24:07 - degiro-trading-agent.security - WARNING - security.py:110 - Credential 'degiro",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180615",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:36:46 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:53 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180618",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-30 14:37:49 - degiro-trading-agent.degiro_simple - ERROR - degiro_simple.py:59 - Failed to c",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180629",
+      "severity": "critical",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - ERROR - degiro_api.py:257 - Failed to get po",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180631",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:05:19 - degiro-trading-agent.degiro_api - WARNING - degiro_api.py:71 - get_portfolio f",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180635",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:05 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180640",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180643",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180646",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:17:16 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180648",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:44 - N",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180651",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180654",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180656",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:18:36 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180659",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:20:39 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180661",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:01 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180663",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-05-31 21:21:21 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    },
+    {
+      "incident_id": "log_error_1751053733",
+      "timestamp": "2025-06-27T21:48:53.180664",
+      "severity": "warning",
+      "component": "application_logs",
+      "description": "Log pattern detected in degiro-trading-agent.log: 2025-06-02 21:17:09 - degiro-trading-agent.portfolio_service - WARNING - portfolio_service.py:91 - U",
+      "resolution": null,
+      "auto_resolved": false,
+      "pattern_match": null
+    }
+  ],
+  "system_baselines": {},
+  "incident_patterns": {},
+  "performance_trends": [],
+  "auto_remediation_history": [],
+  "last_maintenance_runs": {
+    "daily": "2025-06-27T21:48:52.174017",
+    "weekly": "2025-06-27T21:48:52.173997",
+    "monthly": "2025-06-27T21:48:52.173974",
+    "emergency": null
+  },
+  "clara_notes": [
+    "Clara's maintenance memory initialized.",
+    "Ready to learn and adapt to Degiro-2025's operational patterns."
+  ]
+}
