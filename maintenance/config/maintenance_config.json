@@ -1,253 +1,258 @@
 {
-  "enabled": true,
-  "version": "1.1.0",
-  "clara_personality": {
-    "name": "Clara Maintenance Agent",
-    "motto": "Prevent, Preserve, Perfect. And I remember everything.",
-    "approach": "systematic_and_methodical"
-  },
-  "system_monitoring": {
-    "cpu_warning_threshold": 75,
-    "cpu_critical_threshold": 90,
-    "memory_warning_threshold": 75,
-    "memory_critical_threshold": 90,
-    "disk_warning_threshold": 80,
-    "disk_critical_threshold": 85,
-    "process_count_threshold": 500,
-    "load_average_threshold": 4.0,
-    "network_latency_threshold_ms": 1000,
-    "api_response_time_threshold_ms": 5000
-  },
-  "maintenance_schedules": {
-    "daily": {
-      "time": "09:00",
-      "enabled": true,
-      "tasks": [
-        "system_health_check",
-        "log_analysis",
-        "disk_cleanup",
-        "performance_monitoring",
-        "trading_system_validation",
-        "portfolio_data_integrity_check",
-        "api_connection_health_check"
-      ]
-    },
-    "weekly": {
-      "day": "monday",
-      "time": "10:00",
-      "enabled": true,
-      "tasks": [
-        "performance_trend_analysis",
-        "system_baseline_update",
-        "security_audit",
-        "dependency_check",
-        "trading_rules_validation",
-        "database_optimization",
-        "market_data_feed_health_check"
-      ]
-    },
-    "monthly": {
-      "day": 1,
-      "time": "11:00",
-      "enabled": true,
-      "tasks": [
-        "backup_cleanup",
-        "monthly_report_generation",
-        "configuration_audit",
-        "performance_optimization_review",
-        "trading_strategy_performance_review",
-        "risk_management_assessment",
-        "compliance_audit"
-      ]
-    },
-    "emergency": {
-      "interval_minutes": 60,
-      "enabled": true,
-      "tasks": [
-        "critical_system_check",
-        "service_availability_check",
-        "resource_exhaustion_check"
-      ]
-    }
-  },
-  "file_management": {
-    "log_retention_days": 30,
-    "backup_retention_days": 7,
-    "temp_file_cleanup_days": 3,
-    "max_log_file_size_mb": 100
-  },
-  "auto_remediation": {
-    "enabled": true,
-    "approval_required_for_critical": true,
-    "max_auto_actions_per_hour": 5,
-    "safe_mode": true,
-    "trading_safe_mode": true,
-    "allowed_actions": [
-      "log_rotation",
-      "temp_file_cleanup",
-      "service_restart_non_critical",
-      "cache_clearing",
-      "disk_cleanup",
-      "api_session_refresh",
-      "portfolio_data_refresh"
-    ],
-    "restricted_actions": [
-      "database_operations",
-      "configuration_changes",
-      "service_restart_critical",
-      "file_system_modifications",
-      "trading_rule_modifications",
-      "order_execution",
-      "position_modifications"
-    ]
-  },
-  "alerting": {
-    "email_notifications": {
-      "enabled": false,
-      "smtp_server": null,
-      "smtp_port": 587,
-      "username": null,
-      "password": null,
-      "from_address": "clara@degiro-2025.local",
-      "to_addresses": []
-    },
-    "severity_escalation": {
-      "info": {
-        "log_only": true,
-        "notify": false
-      },
-      "warning": {
-        "log_only": false,
-        "notify": true,
-        "escalate_after_minutes": 30
-      },
-      "critical": {
-        "log_only": false,
-        "notify": true,
-        "escalate_after_minutes": 5,
-        "require_immediate_attention": true
-      },
-      "emergency": {
-        "log_only": false,
-        "notify": true,
-        "escalate_after_minutes": 1,
-        "require_immediate_attention": true,
-        "auto_remediation_allowed": true
-      }
-    }
-  },
-  "integration": {
-    "degiro_api_monitoring": {
-      "enabled": true,
-      "health_check_interval_minutes": 15,
-      "timeout_threshold_seconds": 30,
-      "error_rate_threshold_percent": 5,
-      "rate_limit_monitoring": true,
-      "session_expiry_tracking": true
-    },
-    "database_monitoring": {
-      "enabled": true,
-      "connection_check_interval_minutes": 10,
-      "query_timeout_threshold_seconds": 60,
-      "connection_pool_threshold_percent": 80,
-      "migration_status_check": true,
-      "data_integrity_validation": true
-    },
-    "portfolio_service_monitoring": {
-      "enabled": true,
-      "data_validation_enabled": true,
-      "zero_value_alert_enabled": true,
-      "position_count_validation": true,
-      "pnl_calculation_validation": true,
-      "portfolio_sync_monitoring": true
-    },
-    "trading_engine_monitoring": {
-      "enabled": true,
-      "rule_engine_health_check": true,
-      "order_validation_monitoring": true,
-      "risk_check_validation": true,
-      "execution_latency_threshold_ms": 2000,
-      "failed_order_threshold_percent": 1
-    },
-    "market_data_monitoring": {
-      "enabled": true,
-      "data_freshness_threshold_minutes": 5,
-      "price_feed_validation": true,
-      "technical_indicator_validation": true,
-      "market_hours_awareness": true
-    }
-  },
-  "security": {
-    "file_permission_monitoring": true,
-    "configuration_drift_detection": true,
-    "unauthorized_access_monitoring": true,
-    "security_audit_frequency_days": 7
-  },
-  "performance": {
-    "metrics_collection_interval_minutes": 5,
-    "trend_analysis_window_days": 30,
-    "baseline_update_frequency_days": 7,
-    "performance_report_frequency_days": 30
-  },
-  "clara_memory": {
-    "incident_retention_days": 365,
-    "pattern_analysis_enabled": true,
-    "learning_mode": true,
-    "memory_optimization_frequency_days": 30
-  },
-  "logging": {
-    "level": "INFO",
-    "format": "%(asctime)s - Clara - %(levelname)s - %(message)s",
-    "date_format": "%Y-%m-%d %H:%M:%S",
-    "file_rotation": {
-      "enabled": true,
-      "max_size_mb": 50,
-      "backup_count": 5
-    }
-  },
-  "environment": {
-    "project_name": "Degiro-2025",
-    "environment_type": "development",
-    "timezone": "UTC",
-    "locale": "en_US.UTF-8",
-    "phase": "2",
-    "phase_description": "Core Trading Engine Development"
-  },
-  "phase_2_config": {
-    "trading_engine": {
-      "enabled": false,
-      "development_mode": true,
-      "paper_trading_only": true,
-      "max_daily_trades": 10,
-      "position_size_limit_percent": 5,
-      "emergency_stop_enabled": true
-    },
-    "rule_engine": {
-      "enabled": false,
-      "validation_mode": "strict",
-      "max_active_rules": 50,
-      "rule_conflict_detection": true,
-      "backtesting_required": true
-    },
-    "market_data": {
-      "real_time_enabled": false,
-      "data_sources": ["yfinance"],
-      "cache_duration_minutes": 5,
-      "validation_enabled": true,
-      "fallback_sources": []
-    },
-    "risk_management": {
-      "enabled": true,
-      "max_portfolio_risk_percent": 10,
-      "stop_loss_required": true,
-      "position_correlation_check": true,
-      "volatility_adjustment": true
-    },
-    "human_oversight": {
-      "approval_required_for_all_trades": true,
-      "approval_timeout_minutes": 30,
-      "auto_reject_on_timeout": true,
-      "notification_channels": ["log", "email"]
-    }
-  }
+	"enabled": true,
+	"version": "1.1.0",
+	"clara_personality": {
+		"name": "Clara Maintenance Agent",
+		"motto": "Prevent, Preserve, Perfect. And I remember everything.",
+		"approach": "systematic_and_methodical"
+	},
+	"system_monitoring": {
+		"cpu_warning_threshold": 75,
+		"cpu_critical_threshold": 90,
+		"memory_warning_threshold": 75,
+		"memory_critical_threshold": 90,
+		"disk_warning_threshold": 80,
+		"disk_critical_threshold": 85,
+		"process_count_threshold": 500,
+		"load_average_threshold": 4,
+		"network_latency_threshold_ms": 1000,
+		"api_response_time_threshold_ms": 5000
+	},
+	"maintenance_schedules": {
+		"daily": {
+			"time": "09:00",
+			"enabled": true,
+			"tasks": [
+				"system_health_check",
+				"log_analysis",
+				"disk_cleanup",
+				"performance_monitoring",
+				"trading_system_validation",
+				"portfolio_data_integrity_check",
+				"api_connection_health_check"
+			]
+		},
+		"weekly": {
+			"day": "monday",
+			"time": "10:00",
+			"enabled": true,
+			"tasks": [
+				"performance_trend_analysis",
+				"system_baseline_update",
+				"security_audit",
+				"dependency_check",
+				"trading_rules_validation",
+				"database_optimization",
+				"market_data_feed_health_check"
+			]
+		},
+		"monthly": {
+			"day": 1,
+			"time": "11:00",
+			"enabled": true,
+			"tasks": [
+				"backup_cleanup",
+				"monthly_report_generation",
+				"configuration_audit",
+				"performance_optimization_review",
+				"trading_strategy_performance_review",
+				"risk_management_assessment",
+				"compliance_audit"
+			]
+		},
+		"emergency": {
+			"interval_minutes": 60,
+			"enabled": true,
+			"tasks": [
+				"critical_system_check",
+				"service_availability_check",
+				"resource_exhaustion_check"
+			]
+		}
+	},
+	"file_management": {
+		"log_retention_days": 30,
+		"backup_retention_days": 7,
+		"temp_file_cleanup_days": 3,
+		"max_log_file_size_mb": 100
+	},
+	"auto_remediation": {
+		"enabled": true,
+		"approval_required_for_critical": true,
+		"max_auto_actions_per_hour": 5,
+		"safe_mode": true,
+		"trading_safe_mode": true,
+		"allowed_actions": [
+			"log_rotation",
+			"temp_file_cleanup",
+			"service_restart_non_critical",
+			"cache_clearing",
+			"disk_cleanup",
+			"api_session_refresh",
+			"portfolio_data_refresh"
+		],
+		"restricted_actions": [
+			"database_operations",
+			"configuration_changes",
+			"service_restart_critical",
+			"file_system_modifications",
+			"trading_rule_modifications",
+			"order_execution",
+			"position_modifications"
+		]
+	},
+	"alerting": {
+		"email_notifications": {
+			"enabled": false,
+			"smtp_server": null,
+			"smtp_port": 587,
+			"username": null,
+			"password": null,
+			"from_address": "clara@degiro-2025.local",
+			"to_addresses": []
+		},
+		"severity_escalation": {
+			"info": {
+				"log_only": true,
+				"notify": false
+			},
+			"warning": {
+				"log_only": false,
+				"notify": true,
+				"escalate_after_minutes": 30
+			},
+			"critical": {
+				"log_only": false,
+				"notify": true,
+				"escalate_after_minutes": 5,
+				"require_immediate_attention": true
+			},
+			"emergency": {
+				"log_only": false,
+				"notify": true,
+				"escalate_after_minutes": 1,
+				"require_immediate_attention": true,
+				"auto_remediation_allowed": true
+			}
+		}
+	},
+	"integration": {
+		"degiro_api_monitoring": {
+			"enabled": true,
+			"health_check_interval_minutes": 15,
+			"timeout_threshold_seconds": 30,
+			"error_rate_threshold_percent": 5,
+			"rate_limit_monitoring": true,
+			"session_expiry_tracking": true
+		},
+		"database_monitoring": {
+			"enabled": true,
+			"connection_check_interval_minutes": 10,
+			"query_timeout_threshold_seconds": 60,
+			"connection_pool_threshold_percent": 80,
+			"migration_status_check": true,
+			"data_integrity_validation": true
+		},
+		"portfolio_service_monitoring": {
+			"enabled": true,
+			"data_validation_enabled": true,
+			"zero_value_alert_enabled": true,
+			"position_count_validation": true,
+			"pnl_calculation_validation": true,
+			"portfolio_sync_monitoring": true
+		},
+		"trading_engine_monitoring": {
+			"enabled": true,
+			"rule_engine_health_check": true,
+			"order_validation_monitoring": true,
+			"risk_check_validation": true,
+			"execution_latency_threshold_ms": 2000,
+			"failed_order_threshold_percent": 1
+		},
+		"market_data_monitoring": {
+			"enabled": true,
+			"data_freshness_threshold_minutes": 5,
+			"price_feed_validation": true,
+			"technical_indicator_validation": true,
+			"market_hours_awareness": true
+		}
+	},
+	"security": {
+		"file_permission_monitoring": true,
+		"configuration_drift_detection": true,
+		"unauthorized_access_monitoring": true,
+		"security_audit_frequency_days": 7
+	},
+	"performance": {
+		"metrics_collection_interval_minutes": 5,
+		"trend_analysis_window_days": 30,
+		"baseline_update_frequency_days": 7,
+		"performance_report_frequency_days": 30
+	},
+	"clara_memory": {
+		"incident_retention_days": 365,
+		"pattern_analysis_enabled": true,
+		"learning_mode": true,
+		"memory_optimization_frequency_days": 30
+	},
+	"logging": {
+		"level": "INFO",
+		"format": "%(asctime)s - Clara - %(levelname)s - %(message)s",
+		"date_format": "%Y-%m-%d %H:%M:%S",
+		"file_rotation": {
+			"enabled": true,
+			"max_size_mb": 50,
+			"backup_count": 5
+		}
+	},
+	"environment": {
+		"project_name": "Degiro-2025",
+		"environment_type": "development",
+		"timezone": "UTC",
+		"locale": "en_US.UTF-8",
+		"phase": "2",
+		"phase_description": "Core Trading Engine Development"
+	},
+	"phase_2_config": {
+		"trading_engine": {
+			"enabled": false,
+			"development_mode": true,
+			"paper_trading_only": true,
+			"max_daily_trades": 10,
+			"position_size_limit_percent": 5,
+			"emergency_stop_enabled": true
+		},
+		"rule_engine": {
+			"enabled": false,
+			"validation_mode": "strict",
+			"max_active_rules": 50,
+			"rule_conflict_detection": true,
+			"backtesting_required": true
+		},
+		"market_data": {
+			"real_time_enabled": false,
+			"data_sources": [
+				"yfinance"
+			],
+			"cache_duration_minutes": 5,
+			"validation_enabled": true,
+			"fallback_sources": []
+		},
+		"risk_management": {
+			"enabled": true,
+			"max_portfolio_risk_percent": 10,
+			"stop_loss_required": true,
+			"position_correlation_check": true,
+			"volatility_adjustment": true
+		},
+		"human_oversight": {
+			"approval_required_for_all_trades": true,
+			"approval_timeout_minutes": 30,
+			"auto_reject_on_timeout": true,
+			"notification_channels": [
+				"log",
+				"email"
+			]
+		}
+	}
 }
