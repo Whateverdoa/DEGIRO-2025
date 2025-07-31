@@ -59,6 +59,10 @@ config/*.key
 data/cache/
 data/backups/
 
+# MCP Configuration (contains sensitive tokens)
+complete_mcp_config.json
+mcp_config.json
+
 # MacOS
 .DS_Store
 
